@@ -51,13 +51,20 @@ svg {
 }
 #main-container {
   display: grid;
-  grid-template-columns: 1fr 1fr 1fr;
+  grid-template-columns: 1fr 2px 1fr 2px 1fr;
+  align-items: stretch;
 }
+
+.divider {
+    background-color: black;
+    width: 100%;
+    height: auto;
+  }
 .main-card {
-  padding-top: 4%;
+  padding: 2%;
   /* background-color: antiquewhite; */
-  gap: 10px;
-  padding: 10px;
+  /* padding: 10px; */
+
 }
 
 #main-card-img {
